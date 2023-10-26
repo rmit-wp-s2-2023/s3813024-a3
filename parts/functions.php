@@ -7,7 +7,6 @@
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
     // handling the posted inputs into variables
     $productID = $_POST["productID"];
     $productName = $_POST["productName"];

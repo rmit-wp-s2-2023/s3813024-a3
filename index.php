@@ -10,6 +10,9 @@
 <body>
     
     <?php
+    
+    // to show the handeled errors in case of invalid input.
+    require_once("parts/functions.php");
 
     ########################### Making curl to consume json format and print it #############################################
     $curl = curl_init();
