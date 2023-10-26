@@ -9,7 +9,14 @@
 </head>
 <body>
     
-    <?php require_once("parts/functions.php");
+    <?php
+
+    ########################### Making curl to consume json format and print it #############################################
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, "https://titan.csit.rmit.edu.au/~e103884/wp/.services/.orders/");
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($curl);
+    curl_close($curl);
     echo "<h1>Orders</h1>";
     $products = json_decode($output, true);
 

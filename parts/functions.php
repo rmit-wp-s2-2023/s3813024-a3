@@ -1,10 +1,5 @@
 <?php
-########################### Making curl to receive data orders #############################################
-$curl = curl_init();
-curl_setopt($curl, CURLOPT_URL, "https://titan.csit.rmit.edu.au/~e103884/wp/.services/.orders/");
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-$output = curl_exec($curl);
-curl_close($curl);
+
 
 
 
