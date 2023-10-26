@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php require_once("function.php") ?>
+    
     
     <link rel="stylesheet" href="a3.css">
     
 </head>
 <body>
+    <h1>Orders</h1>
+    <?php require_once("parts/functions.php");?>
+   
 
-    <div>
-        <h1>Page Content:</h1>
-        
-    </div>
+    <hr>
+    <?php require_once("parts/sitemap.php") ?>
   </body>
 </html>
