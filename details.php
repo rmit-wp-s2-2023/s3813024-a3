@@ -32,7 +32,7 @@
     curl_close($curl);
     echo "<h1>Order Details for Order#".$id. " </h1>";
     $product = json_decode($output, true);
-    if ($id == 1000){
+    if ($id == 1000 ){
         echo "product ID: " . $product['orderID'] . "<br>";
         echo "product Date: " . $product['orderDate'] . "<br>";
         echo "Customer Name: " . $product['customerName'] . "<br>";
