@@ -41,7 +41,7 @@
         echo "products: <br>". "<ul>";
         echo "<li>Name: ".  $product["products"][0]["name"]. "</li>";
         echo "<li>price: ".  $product["products"][0]["price"]. "</li>";
-        echo "<li>quantity". $product["products"][0]["quantity"]. "</li><br>";
+        echo "<li>quantity: ". $product["products"][0]["quantity"]. "</li><br>";
         echo "<li>Name: ".  $product["products"][1]["name"]. "</li>";
         echo "<li>price: ".  $product["products"][1]["price"]. "</li>";
         echo "<li>quantity: ". $product["products"][1]["quantity"]. "</li>";
@@ -58,7 +58,7 @@
         echo "products: <br>". "<ul>";
         echo "<li>Name: ".  $product["products"][0]["name"]. "</li>";
         echo "<li>price: ".  $product["products"][0]["price"]. "</li>";
-        echo "<li>quantity". $product["products"][0]["quantity"]. "</li><br>";
+        echo "<li>quantity: ". $product["products"][0]["quantity"]. "</li><br>";
         echo "<br>";
 
     }
@@ -73,7 +73,7 @@
         echo "products: <br>". "<ul>";
         echo "<li>Name: ".  $product["products"][0]["name"]. "</li>";
         echo "<li>price: ".  $product["products"][0]["price"]. "</li>";
-        echo "<li>quantity". $product["products"][0]["quantity"]. "</li><br>";
+        echo "<li>quantity: ". $product["products"][0]["quantity"]. "</li><br>";
         echo "<li>Name: ".  $product["products"][1]["name"]. "</li>";
         echo "<li>price: ".  $product["products"][1]["price"]. "</li>";
         echo "<li>quantity: ". $product["products"][1]["quantity"]. "</li><br>";
